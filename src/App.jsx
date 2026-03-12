@@ -6,6 +6,11 @@ import Recruitments from "./components/Recruitments";
 import Blogs from "./components/Blogs";
 import Signin from "./components/Signin";
 import Teams from "./components/Teams";
+import Stargazers from "./components/Stargazers";
+import Robusta from "./components/Robusta";
+import Programmers from "./components/Programmers";
+import CoreTeam from "./components/CoreTeam";
+import Achievements from "./components/Achievements";
 
 function App() {
   return (
@@ -18,6 +23,11 @@ function App() {
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/signin" element={<Signin />} />
           <Route path="/teams" element={<Teams />} />
+          <Route path="/teams/Stargazers" element={<Stargazers />} />
+          <Route path="/teams/Robusta" element={<Robusta />} />
+          <Route path="/teams/Programmers" element={<Programmers />} />
+          <Route path="/teams/CoreTeam" element={<CoreTeam />} />
+          <Route path="/achievements" element={<Achievements />} />
         </Routes>
       </Router>
     </>

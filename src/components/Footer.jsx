@@ -53,8 +53,8 @@ export default function Footer() {
           <h4 className="font-orbitron text-lg mb-4">Contact Us</h4>
           <ul className="space-y-2 font-space text-gray-400 text-sm leading-relaxed">
             <li>aeroastro_vzg@gitam.in</li>
-            <li>+91 70364 42464</li>
-            <li>+91 73823 36771</li>
+            <li><a href="tel:+919553316797">+91 95533 16797</a></li>
+            <li><a href="tel:+917382338771">+91 73823 38771</a></li>
             <li>
               Location - Industrial Engineering Bhavan, GITAM University,
               Visakhapatnam

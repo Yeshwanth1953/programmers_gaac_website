@@ -115,6 +115,7 @@ export default function Navbar() {
               {navItem("/teams", "Teams", true)}
               {navItem("/projects", "Projects", true)}
               {navItem("/blogs", "Blogs", true)}
+              {navItem("/achievements", "Achievements", true)}
               {navItem("/recruitments", "Recruitments", true)}
 
               <Link to="/signin" onClick={() => setOpen(false)}>

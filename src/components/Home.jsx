@@ -6,20 +6,6 @@ import { Instagram, Linkedin, Github } from "lucide-react";
 import Footer from "./Footer";
 import React, { useEffect } from "react";
 
-// const fadeUp = {
-//   hidden: { opacity: 0, y: 40 },
-//   visible: { opacity: 1, y: 0 },
-// };
-
-// const fadeLeft = {
-//   hidden: { opacity: 0, x: -60 },
-//   visible: { opacity: 1, x: 0 },
-// };
-
-// const fadeRight = {
-//   hidden: { opacity: 0, x: 60 },
-//   visible: { opacity: 1, x: 0 },
-// };
 
 function Home() {
   useEffect(() => {
@@ -364,6 +350,222 @@ function Home() {
           ))}
         </div>
       </section>
+      
+{/* ================= ACHIEVEMENTS PREVIEW ================= */}
+<section className="relative bg-black text-white py-32 px-6 md:px-20 overflow-hidden">
+
+  {/* Ambient Glow */}
+  <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(99,102,241,0.08),transparent_70%)]" />
+
+  <div className="relative z-10 max-w-7xl mx-auto space-y-32">
+
+    {/* Section Header */}
+    <div className="text-center mb-16">
+      <p className="text-sm tracking-widest uppercase text-gray-400 mb-4">
+        Achievements
+      </p>
+      <h2 className="font-orbitron text-4xl md:text-6xl font-extrabold">
+        Recognizing <span className="text-indigo-400">Excellence</span>
+      </h2>
+    </div>
+
+    {/* Achievement 1 */}
+    <div className="flex flex-col md:flex-row items-center gap-16">
+
+      {/* Left Image */}
+      <div className="md:w-1/2 w-full h-[350px] relative rounded-2xl overflow-hidden border border-white/10">
+        <img
+          src="/achievement1.jpg"
+          alt="Achievement"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/50" />
+      </div>
+
+      {/* Right Content */}
+      <div className="md:w-1/2 w-full">
+        <p className="text-xs uppercase tracking-widest text-indigo-300 mb-3">
+          Core Team
+        </p>
+        <h3 className="font-orbitron text-3xl font-bold mb-4">
+          Sampath Varma Datla
+        </h3>
+        <p className="text-gray-400 mb-6">
+          President – Recognized for strategic leadership and innovation in GAAC.
+        </p>
+
+        <div className="flex gap-4">
+          <a
+            href="mailto:email@example.com"
+            className="px-5 py-2 rounded-full border border-indigo-400/50 text-indigo-300 hover:bg-indigo-400 hover:text-black transition"
+          >
+            Email
+          </a>
+
+          <a
+            href="#"
+            className="px-5 py-2 rounded-full border border-indigo-400/50 text-indigo-300 hover:bg-indigo-400 hover:text-black transition"
+          >
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    {/* Achievement 2 (Reverse Layout) */}
+    <div className="flex flex-col md:flex-row-reverse items-center gap-16">
+
+      {/* Image */}
+      <div className="md:w-1/2 w-full h-[350px] relative rounded-2xl overflow-hidden border border-white/10">
+        <img
+          src="/achievement2.jpg"
+          alt="Achievement"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/50" />
+      </div>
+
+      {/* Content */}
+      <div className="md:w-1/2 w-full">
+        <p className="text-xs uppercase tracking-widest text-indigo-300 mb-3">
+          Robusta
+        </p>
+        <h3 className="font-orbitron text-3xl font-bold mb-4">
+          Member Name
+        </h3>
+        <p className="text-gray-400 mb-6">
+          Lead – Excellence in autonomous drone innovation and research.
+        </p>
+
+        <div className="flex gap-4">
+          <a
+            href="mailto:email@example.com"
+            className="px-5 py-2 rounded-full border border-indigo-400/50 text-indigo-300 hover:bg-indigo-400 hover:text-black transition"
+          >
+            Email
+          </a>
+
+          <a
+            href="#"
+            className="px-5 py-2 rounded-full border border-indigo-400/50 text-indigo-300 hover:bg-indigo-400 hover:text-black transition"
+          >
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+
+    {/* Achievement 3 */}
+    <div className="flex flex-col md:flex-row items-center gap-16">
+
+      {/* Left Image */}
+      <div className="md:w-1/2 w-full h-[350px] relative rounded-2xl overflow-hidden border border-white/10">
+        <img
+          src="/achievement1.jpg"
+          alt="Achievement"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/50" />
+      </div>
+
+      {/* Right Content */}
+      <div className="md:w-1/2 w-full">
+        <p className="text-xs uppercase tracking-widest text-indigo-300 mb-3">
+          Core Team
+        </p>
+        <h3 className="font-orbitron text-3xl font-bold mb-4">
+          Sampath Varma Datla
+        </h3>
+        <p className="text-gray-400 mb-6">
+          President – Recognized for strategic leadership and innovation in GAAC.
+        </p>
+
+        <div className="flex gap-4">
+          <a
+            href="mailto:email@example.com"
+            className="px-5 py-2 rounded-full border border-indigo-400/50 text-indigo-300 hover:bg-indigo-400 hover:text-black transition"
+          >
+            Email
+          </a>
+
+          <a
+            href="#"
+            className="px-5 py-2 rounded-full border border-indigo-400/50 text-indigo-300 hover:bg-indigo-400 hover:text-black transition"
+          >
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+
+{/* Achievement 4 (Reverse Layout) */}
+    <div className="flex flex-col md:flex-row-reverse items-center gap-16">
+
+      {/* Image */}
+      <div className="md:w-1/2 w-full h-[350px] relative rounded-2xl overflow-hidden border border-white/10">
+        <img
+          src="/achievement2.jpg"
+          alt="Achievement"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/50" />
+      </div>
+
+      {/* Content */}
+      <div className="md:w-1/2 w-full">
+        <p className="text-xs uppercase tracking-widest text-indigo-300 mb-3">
+          Robusta
+        </p>
+        <h3 className="font-orbitron text-3xl font-bold mb-4">
+          Member Name
+        </h3>
+        <p className="text-gray-400 mb-6">
+          Lead – Excellence in autonomous drone innovation and research.
+        </p>
+
+        <div className="flex gap-4">
+          <a
+            href="mailto:email@example.com"
+            className="px-5 py-2 rounded-full border border-indigo-400/50 text-indigo-300 hover:bg-indigo-400 hover:text-black transition"
+          >
+            Email
+          </a>
+
+          <a
+            href="#"
+            className="px-5 py-2 rounded-full border border-indigo-400/50 text-indigo-300 hover:bg-indigo-400 hover:text-black transition"
+          >
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+
+    {/* View All Button */}
+    <div className="text-center">
+      <Link
+        to="/achievements"
+        className="
+          inline-flex items-center gap-2
+          px-8 py-3
+          border border-indigo-400/50
+          text-indigo-300
+          rounded-full
+          hover:bg-indigo-400 hover:text-black
+          transition-all duration-300
+        "
+      >
+        View All Achievements →
+      </Link>
+    </div>
+
+  </div>
+</section>
+
+
 
       <section className="relative bg-black text-white py-32 px-6 md:px-20 overflow-hidden">
         {/* Ambient glow */}
@@ -543,189 +745,3 @@ function Home() {
 }
 
 export default Home;
-
-{
-  /* <section className="w-full bg-transparent pt-24 pb-16 px-6">
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
-          variants={fadeUp}
-          className="max-w-6xl mx-auto text-center mb-12"
-          style={{
-            backgroundImage: `url(./pexels-minan1398-920534.jpg)`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-          }}
-        >
-          {" "}
-          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">
-            GITAM AERO ASTRO CLUB
-          </h1>
-          <p className="text-gray-400 text-base md:text-lg mt-4 max-w-3xl mx-auto">
-            A community of curious minds passionate about Robotics, Programming,
-            and Astronomy — building, learning, and exploring together.
-          </p>
-          <h2 className="mt-10 text-2xl md:text-3xl font-bold text-[#4da3ff]">
-            Explore GAAC Domains
-          </h2>
-          <p className="text-gray-300 mt-2 text-sm max-w-2xl mx-auto">
-            Discover the areas driving innovation at GAAC.
-          </p>
-          <div className="w-16 h-1 bg-[#4da3ff] mx-auto mt-4 rounded-full" />
-        </motion.div>
-
-        <div className="max-w-6xl mx-auto grid gap-6 md:grid-cols-3">
-          <motion.div
-            variants={fadeLeft}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="p-6 rounded-xl bg-[#112244] border border-[#1e3a66] hover:border-[#4da3ff] transition
-            "
-            whileHover={{
-              y: -8,
-              boxShadow: "0 20px 40px rgba(77,163,255,0.25)",
-            }}
-          >
-            {" "}
-            <h3 className="text-xl font-semibold text-[#4da3ff] mb-2">
-              🤖 Robotics
-            </h3>
-            <p className="text-gray-300 text-sm leading-relaxed">
-              Mechanical design, embedded systems, autonomous robots and drones.
-            </p>
-          </motion.div>
-
-          <motion.div
-            variants={fadeUp}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.15 }}
-            className="p-6 rounded-xl bg-[#112244] border border-[#1e3a66] hover:border-[#4da3ff] transition"
-            whileHover={{
-              y: -8,
-              boxShadow: "0 20px 40px rgba(77,163,255,0.25)",
-            }}
-          >
-            {" "}
-            <h3 className="text-xl font-semibold text-[#4da3ff] mb-2">
-              💻 Programming
-            </h3>
-            <p className="text-gray-300 text-sm leading-relaxed">
-              Software engineering, automation, tools, and scalable systems.
-            </p>
-          </motion.div>
-
-          <motion.div
-            variants={fadeRight}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-            className="p-6 rounded-xl bg-[#112244] border border-[#1e3a66] hover:border-[#4da3ff] transition"
-            whileHover={{
-              y: -8,
-              boxShadow: "0 20px 40px rgba(77,163,255,0.25)",
-            }}
-          >
-            <h3 className="text-xl font-semibold text-[#4da3ff] mb-2">
-              🔭 Astronomy
-            </h3>
-            <p className="text-gray-300 text-sm leading-relaxed">
-              Stargazing, celestial observations, and space data analysis.
-            </p>
-          </motion.div>
-        </div>
-      </section>
-
-      {/* ABOUT SECTION */
-}
-{
-  /* <motion.div
-        initial={{ opacity: 0, scale: 0.95 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.7, ease: "easeOut" }}
-        className="max-w-4xl mx-auto text-center"
-      >
-        <section className="bg-transparent py-16 px-6">
-          <div className="max-w-4xl mx-auto text-center">
-            <h3 className="text-xs font-semibold uppercase tracking-widest text-[#9cd7ff]">
-              About Our Club
-            </h3>
-
-            <h2 className="text-3xl md:text-4xl font-extrabold mt-3 text-[#e6f7ff]">
-              Innovate. Explore. Elevate.
-            </h2>
-
-            <p className="mt-5 text-gray-300 leading-relaxed">
-              The{" "}
-              <span className="font-semibold text-[#cfefff]">
-                GITAM Aero Astro Club
-              </span>{" "}
-              is a student-driven community focused on aerospace, robotics,
-              programming, and astronomy. We conduct workshops, build impactful
-              projects, and collaborate with mentors to grow together.
-            </p>
-
-            <div className="mt-10 grid gap-4 sm:grid-cols-3 text-left">
-              <div className="p-5 rounded-lg bg-[#0e2a4a]/60 border border-[#123654]">
-                <h4 className="font-semibold text-[#bfe9ff]">Mission</h4>
-                <p className="text-sm text-gray-300 mt-2">
-                  Cultivate innovation and collaborative learning.
-                </p>
-              </div>
-
-              <div className="p-5 rounded-lg bg-[#0e2a4a]/60 border border-[#123654]">
-                <h4 className="font-semibold text-[#bfe9ff]">Vision</h4>
-                <p className="text-sm text-gray-300 mt-2">
-                  Become a recognized hub for student-led research.
-                </p>
-              </div>
-
-              <div className="p-5 rounded-lg bg-[#0e2a4a]/60 border border-[#123654]">
-                <h4 className="font-semibold text-[#bfe9ff]">Values</h4>
-                <p className="text-sm text-gray-300 mt-2">
-                  Integrity, collaboration, hands-on learning, community impact.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-      </motion.div> */
-}
-{
-  /* FOOTER */
-}
-{
-  /* <footer className="border-t border-white/10 text-center py-6 text-gray-400 text-sm">
-        © {new Date().getFullYear()} GITAM Aero Astro Club. All rights reserved.
-      </footer> */
-}
-
-// <section className="relative bg-black py-28 px-6 md:px-20 overflow-hidden">
-//         {/* Ambient glow */}
-//         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(99,102,241,0.08),transparent_70%)]" />
-
-//         <div className="relative z-10 max-w-6xl mx-auto">
-//           {/* Section Header */}
-//           <div className="text-center mb-20">
-//             <p className="text-sm tracking-widest uppercase text-gray-400 mb-4">
-//               What We Do
-//             </p>
-//             <h2 className="font-orbitron text-4xl md:text-6xl font-extrabold text-white">
-//               Turning curiosity into{" "}
-//               <span className="text-indigo-400">action</span>
-//             </h2>
-//             <p className="font-space text-gray-300 text-lg mt-6 max-w-3xl mx-auto">
-//               At GAAC, members don’t just learn — they build, experiment,
-//               compete, and explore beyond the classroom.
-//             </p>
-//           </div>
-//         </div>
-//       </section>

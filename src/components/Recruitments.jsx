@@ -13,9 +13,9 @@ function Recruitments() {
           Recruitments
         </p>
 
-        <h2 className="font-orbitron text-4xl md:text-5xl font-extrabold mb-6 text-white">
-          Recruitments are <span className="text-indigo-400">Closed</span>
-        </h2>
+        <h1 className="font-orbitron text-4xl md:text-6xl font-extrabold text-white">
+            Recruitments are <span className="text-indigo-400">Closed</span>
+        </h1>
 
         {/* Main Card */}
         <div
