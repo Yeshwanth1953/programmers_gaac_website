@@ -119,13 +119,13 @@ This project can be deployed using platforms like:
 
 ## 🌐 Live Demo
 
-👉 https://your-live-link.vercel.app
+👉 https://gitam-aero-astro-club.vercel.app/
 
 ---
 
 ## 📸 Screenshots
 
-(Add screenshots like below)
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/ddf167cd-3567-4f03-b612-d36445157901" />
 
 ---
 
